@@ -18,11 +18,12 @@ public class UserDto {
     @NotEmpty
     private String lastname;
 
-    @NotEmpty(message = "Email shold not be empty")
+    @NotEmpty(message = "Email should not be empty")
     private String email;
 
-    @NotEmpty(message = "password shold not be empty")
+    @NotEmpty(message = "password should not be empty")
     private String password;
+
 
 
 }
